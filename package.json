@@ -1,20 +1,33 @@
 {
   "optionalDependencies": {},
-  "keywords": [],
+  "keywords": [
+    "session",
+    "store",
+    "trinte",
+    "trintejs",
+    "caminte",
+  ],
   "engines": {"node": ">=0.6"},
   "licenses": [],
   "devDependencies": {"nodeunit": ">=0.5.4"},
-  "homepage": "",
+  "homepage": "https://github.com/biggora/trinte",
   "version": "0.0.1",
   "main": "./index.js",
-  "author": "",
+  "author": {
+    "name": "Aleksej Gordejev",
+    "email": "aleksej@gordejev.lv",
+    "url": "https://github.com/biggora/"
+  },
   "scripts": {"test": "nodeunit tests/test.js"},
   "repository": {},
   "directories": {
     "lib": "lib",
     "tests": "tests"
   },
-  "dependencies": {},
-  "description": "",
+  "dependencies": {
+    "trinte": ">=0.1.3",
+    "caminte": ">=0.0.8",
+  },
+  "description": "Sessions Store for TrinteJS Framework",
   "name": "trinte-session"
 }
