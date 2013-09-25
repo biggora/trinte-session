@@ -10,7 +10,7 @@
   "engines": {"node": ">=0.6"},
   "licenses": [],
   "devDependencies": {"nodeunit": ">=0.5.4"},
-  "homepage": "https://github.com/biggora/trinte",
+  "homepage": "http://www.trintejs.com/",
   "version": "0.0.1",
   "main": "./index.js",
   "author": {
@@ -19,7 +19,10 @@
     "url": "https://github.com/biggora/"
   },
   "scripts": {"test": "nodeunit tests/test.js"},
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/biggora/trinte-session.git"
+  },
   "directories": {
     "lib": "lib",
     "tests": "tests"
@@ -28,6 +31,6 @@
     "trinte": ">=0.1.3",
     "caminte": ">=0.0.8",
   },
-  "description": "Sessions Store for TrinteJS Framework",
+  "description": "Sessions Store for TrinteJS Javascript MVC Framework",
   "name": "trinte-session"
 }

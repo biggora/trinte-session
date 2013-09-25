@@ -1,1 +1,1 @@
-# Sessions module for TrinteJS Javascript MVC Framework
+# Sessions Store for TrinteJS Javascript MVC Framework
